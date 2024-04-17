@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "title": "Committee",
+    "childrens": [
+      {
+        "title": "Organizing Committee",
+        "path": "/organizing_committee"
+      },
+      {
+        "title": "Advisory Committee",
+        "path": "/advisory_committee"
+      }
+    ]
+  },
+  {
+    "title": "Program Schedule",
+    "path": "/program_schedule"
+  },
+  {
+    "title": "Keynote Speakers",
+    "path": "/keynote_speakers"
+  },
+  {
+    "title": "Tutorial Speakers",
+    "path": "/tutorial_speakers"
+  },
+  {
+    "title": "Track Chairs",
+    "path": "/track_chairs"
+  },
+  {
+    "title": "Special Session",
+    "path": "/special_session"
+  },
+  {
+    "title": "Important Dates",
+    "path": "/important_dates"
+  },
+  {
+    "title": "Call For Papers",
+    "path": "/call_for_papers"
+  },
+  {
+    "title": "Guideline for paper submission",
+    "path": "/guideline_for_paper_submission"
+  },
+  {
+    "title": "Registration",
+    "path": "/registration"
+  },
+  {
+    "title": "Contact Us",
+    "path": "/contactUs"
+  }
+]

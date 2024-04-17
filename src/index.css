@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bodym {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  /* color: #fff; */
+}
+
+.maina {
+  display: flex;
+  height: 100%;
+}
+
+.containera {
+  flex-grow: 1;
+  padding: 2em;
+  background-image: radial-gradient(
+      rgba(238, 234, 234, 0.337),
+      rgba(248, 244, 244, 0.456)
+    ),
+    url("./images/img2.avif");
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+.titlea {
+  font-size: 3em;
+}
+.infoa {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 1.5em;
+  color: rgb(224, 224, 224);
+}
+.btna {
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  padding: 0.75em 1em;
+  font-size: 1em;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: rgb(134, 49, 0);
+  color: #fff;
+}
+
+.sidebara {
+  width: 250px;
+  flex-shrink: 0;
+  background-color: rgb(212, 232, 246);
+  height: 100vh;
+  overflow: auto;
+}
+
+.sidebar-itema {
+  padding: 0.75em 1em;
+  display: block;
+  transition: background-color 0.15s;
+  border-radius: 5px;
+}
+.sidebar-itema:hover {
+  background-color: rgba(53, 90, 82, 0.1);
+}
+
+.sidebar-titlea {
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+}
+.sidebar-titlea span i {
+  display: inline-block;
+  width: 1.5em;
+}
+.sidebar-titlea span {
+  color: #0a0404;
+}
+.sidebar-titlea .toggle-btna {
+  cursor: pointer;
+  transition: transform 0.3s;
+  color: #050303;
+}
+.sidebar-itema.open > .sidebar-titlea .toggle-btna {
+  transform: rotate(180deg);
+}
+.sidebar-contenta {
+  padding-top: 0.25em;
+  height: 0;
+  overflow: hidden;
+}
+.sidebar-itema.open > .sidebar-contenta {
+  height: auto;
+}
+
+.sidebar-itema.plain {
+  color: #0e0808;
+  text-decoration: none;
+}
+.sidebar-itema.plain:hover {
+  text-decoration: underline;
+}
+.sidebar-itema.plain i {
+  display: inline-block;
+  width: 1.7em;
+}
